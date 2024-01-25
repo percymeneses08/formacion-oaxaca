@@ -1,0 +1,44 @@
+body
+{
+/*   background: yellow; */
+  background: linear-gradient(red, rgb(96, 255, 253), #ECFF60);
+  font-family: "Montserrat", sans-serif;
+}
+
+h1
+{
+  color: blue;
+  font-size: 44px;
+  line-height: 80px;
+  letter-spacing: 10px;
+  word-spacing: 20px;
+}
+
+p
+{
+  color: red;
+}
+
+img
+{
+  border-radius: 24px;
+}
+
+button
+{
+  border: 0;
+  background: #47D649;
+  border-radius: 6px;
+  width: 100px;
+  height: 44px;
+  font-size: 16px;
+}
+
+button:hover
+{
+  background: #47A848;
+  color: white;
+  cursor: pointer;
+  transform: rotate(360deg);
+  transition: 1s;
+}
